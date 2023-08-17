@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-@app.route('-api')
+@app.route('/api')
 
 # funcionalidades
 def crypto_data(coin):
